@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER"
+      prefHeight="400.0" prefWidth="600.0"
+      maxHeight="-Infinity" maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity"
+      xmlns="http://javafx.com/javafx/22"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="nntc.volosov.coursework.DesktopController">
+
+    <TextFlow textAlignment="CENTER">
+        <Text text="Окно Слугина В.Г. 'О программе'" underline="true">
+            <font>
+                <Font size="30.0"/>
+            </font>
+        </Text>
+    </TextFlow>
+
+    <TextFlow layoutX="10.0" layoutY="200.0" style="-fx-padding: 30;" textAlignment="CENTER">
+        <Text text="ТУТ МОГЛА БЫТЬ ВАША РЕКЛАМА.">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Text>
+    </TextFlow>
+</VBox>
